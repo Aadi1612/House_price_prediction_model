@@ -46,31 +46,32 @@ The dataset used in this project contains the following columns:
 Various machine learning algorithms were trained and evaluated using the preprocessed data. The model with the highest performance was selected for making predictions.
 
 ## Results
+
 After training and evaluating the models, the following results were obtained:
 
-Linear Regression:
-MAE (Mean Absolute Error): 54384.24
-MSE (Mean Squared Error): 4547579713.20
-RMSE (Root Mean Squared Error): 67435.75
+- **Linear Regression:**
+  - MAE (Mean Absolute Error): 54384.24
+  - MSE (Mean Squared Error): 4547579713.20
+  - RMSE (Root Mean Squared Error): 67435.75
 
-RandomForestRegressor:
-MAE: 53412.51
-MSE: 4852419649.39
-RMSE: 69659.31
+- **RandomForestRegressor:**
+  - MAE: 53412.51
+  - MSE: 4852419649.39
+  - RMSE: 69659.31
 
-GradientBoostingRegressor:
-MAE: 11454.03
-MSE: 254604964.28
-RMSE: 15956.35
-Conclusion
+- **GradientBoostingRegressor:**
+  - MAE: 11454.03
+  - MSE: 254604964.28
+  - RMSE: 15956.35
 
 ## Conclusion
+
 Based on the evaluation metrics, here are the conclusions:
 
-GradientBoostingRegressor significantly outperforms the other two models, achieving much lower MAE, MSE, and RMSE values. It provides the most accurate predictions among the models tested.
+- **GradientBoostingRegressor** significantly outperforms the other two models, achieving much lower MAE, MSE, and RMSE values. It provides the most accurate predictions among the models tested.
 
-RandomForestRegressor performs better than Linear Regression but not as well as GradientBoostingRegressor. While it offers decent performance, it falls short compared to the boosting model.
+- **RandomForestRegressor** performs better than **Linear Regression** but not as well as **GradientBoostingRegressor**. While it offers decent performance, it falls short compared to the boosting model.
 
-Linear Regression has the highest error metrics among the three models, indicating it performs the worst in this comparison. It may not be the ideal choice for this particular prediction task.
+- **Linear Regression** has the highest error metrics among the three models, indicating it performs the worst in this comparison. It may not be the ideal choice for this particular prediction task.
+
 In conclusion, this project demonstrates the use of machine learning techniques to predict house prices based on various features. The trained model can be used by real estate agents, homeowners, or buyers to estimate the value of a property. 
-
